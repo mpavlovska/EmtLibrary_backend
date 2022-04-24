@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin(origins = "heroku")
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/api")
 public class BookRestController {
     private final BookService bookService;
